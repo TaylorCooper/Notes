@@ -1,0 +1,6 @@
+###
+###  Notes with some useful bash commands
+###
+
+setsid			"Launch command independently of terminal"
+grive			"Google drive (use -a to setup)"
