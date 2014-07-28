@@ -24,4 +24,6 @@ touch # Updates time stamp on target
 git add . # Adds everything in folder
 git commit -a -m "Initial commit."
 git remote add origin taylorcooper@https://github.com/taylorcooper/PROJECTNAME
+git remote -v
+git push origin master
 
