@@ -26,8 +26,9 @@ sudo apt-get install virtualbox-guest-additions-iso
 #Installs here: /usr/share/virtualbox/VBoxGuestAdditions.iso
 Open above dir in filemanager
 Rightclick mount and run with disk mounter
-sudo apt-get install virtualbox-guest-X11  (type Y)
+sudo apt-get install virtualbox-guest-X11  # type Y 
 
+sudo mount -t vboxsf VB-Shared ~/VB-Shared # mount shared drive
 
 ###
 ### Key Bindings Changes
@@ -42,12 +43,12 @@ C+A+S + arrow to move windows
 ###
 ### Apt-get installs
 ###
-sudo apt-get install gedit-plugins unity-tweaker-tool unrar nautilus-open-terminal
-
-#  Tweaker Tool Adjustments
+sudo apt-get install gedit-plugins unity-tweak-tool unrar nautilus-open-terminal
+#Tweaker Tool Adjustments
 # Change transparency for Panel and Launcher
 # Change workspace count
 # Disable online searches
+
 
 # Emacs prelude
 sudo apt-get install emacs24
@@ -70,11 +71,13 @@ sudo add-apt-repository 'deb  http://ppa.launchpad.net/jon-severinsson/ffmpeg/ub
 http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.9/opencv-2.4.9.zip/download
 
 # Installed for OpenCV
+cd ~/Downloads
 git clone https://github.com/jayrambhia/Install-OpenCV.git
 cd ~/Downloads/Install-OpenCV/Ubuntu
 mv openCV tar.gz to above dir
 
 sudo ./opencv_lastest.sh  # May fail but can compile manually
+sudo ./dependenciescies  # Install dependencies even if the above crashes
 
 # Manual compile  (can these files be deleted later its 3.2gigs..)
 unzip $downloadfile # or tar -xvf $downloadfile

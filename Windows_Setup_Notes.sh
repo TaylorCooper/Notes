@@ -24,6 +24,3 @@ http://stackoverflow.com/questions/11699298/opencv-2-4-videocapture-not-working-
 - Copy and rename to opencv_ffmpeg246_64.dll and opencv_ffmpeg246.dll
 - Copy these files to C:\Python27\
 
-# Link below suggests updating environment variables, did not do this yet
-http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_install.html
-
