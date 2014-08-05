@@ -12,6 +12,9 @@
 -winsplit
 -office
 -solidworks 2013
+-avidemux
+-image j
+
 
 4) Install OpenCV...
 

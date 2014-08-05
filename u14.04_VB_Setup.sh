@@ -27,7 +27,7 @@ sudo apt-get install virtualbox-guest-additions-iso
 Open above dir in filemanager
 Rightclick mount and run with disk mounter
 sudo apt-get install virtualbox-guest-X11  # type Y 
-
+mkdir ~/VB-Shared
 sudo mount -t vboxsf VB-Shared ~/VB-Shared # mount shared drive
 
 ###
