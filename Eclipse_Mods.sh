@@ -29,7 +29,7 @@ Git
 ### Perspectives
 ###
 Move console to bottom left
-
+i
 ###
 ### Keybindings
 ###
