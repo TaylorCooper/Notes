@@ -4,12 +4,14 @@
 # Clone
 git clone taylorcooper@github.com/project
 
+# Clone Bare (this did not work....)
+git clone --bare https://github.com/MistyWest/project
+
 # Commit
 git add .
 read -p "Commit description: " desc
 git commit -m "$desc"
 git push origin master
-fi
 
 # Pull
 git pull
